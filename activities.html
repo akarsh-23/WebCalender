@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Web Calander</title>
+    <link rel="stylesheet" href="activities.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Activities
+        </h1>
+    </header>
+    <div class="nav">
+        <ul>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="activities">
+            <div class="head">
+                <form name="myform">
+                    <h3>Create New Activity</h3>
+                    <input id="ActivityName" name="name" type="text" placeholder="Activity Name..." required/>
+                    <input id="date" type="date" name="date" required/>
+                    <input id="time" type="time" name="time" required/>
+                    <button onclick="createActivity()" type="submit">Create</button>
+                </form>
+            </div>
+            <div class="Activity">
+                <table>
+                    <tr>
+                        <th>Activity Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Hit the GYM</td>
+                        <td>04/22/2020</td>
+                        <td>10:30 AM</td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="activities.js"></script>
+</body>
+</html>

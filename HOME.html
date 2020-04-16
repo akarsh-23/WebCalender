@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Web Calander</title>
+    <link rel="stylesheet" href="HOME.css">
+</head>
+
+<body onload="renderDate()">
+    <header>
+        <h1>
+            Web Calander
+        </h1>
+    </header>
+    <div class="nav">
+        <ul>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+      <div class="calender">
+          <div class="head">
+              <div>
+                  <span class="prev" onclick="moveDate('prev')">&#10094</span>
+                  <span id="month"></span>
+                  <span id="year"></span>
+                  <span class="next" onclick="moveDate('next')">&#10095</span>
+              </div>
+          </div>
+          <div class="neck">
+              <table>
+                  <tr>
+                      <th>Sunday</th>
+                      <th>Monday</th>
+                      <th>Tuesday</th>
+                      <th>Wednesday</th>
+                      <th>Thursday</th>
+                      <th>Friday</th>
+                      <th>Saturday</th>
+                  </tr>
+              </table>
+          </div>
+          <div class="body">
+              <table class="tbody">
+                  <tr>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                  </tr>
+                  <tr>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                  </tr>
+                  <tr>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                  </tr>
+                  <tr>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                  </tr>
+                  <tr>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                      <td class="date"></td>
+                  </tr>
+                  <tr>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                    <td class="date"></td>
+                </tr>
+              </table>
+          </div> 
+      </div>
+  </div>
+  <script  src="myjs.js"></script>
+</body>
+</html>

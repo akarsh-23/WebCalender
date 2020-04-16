@@ -1,0 +1,55 @@
+body {
+    font-family: cursive;
+}
+
+header {
+    cursor: default;
+    text-shadow: 2px 2px blueviolet;
+    text-align: center;
+    color: blueviolet;
+    margin: 0;
+}
+header:hover{
+    text-shadow: 2px 2px 5px blueviolet;
+    text-align: center;
+    color: blueviolet;
+    margin: 0;
+}
+
+.center {
+    margin: auto;
+    width: fit-content;
+    padding: 50px;
+    background-color: Whitesmoke;
+    text-align: left;
+    color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 5px 5px blueviolet;
+}
+div form input{
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+}
+div form button{
+    border: none;
+    margin: auto;
+    color: whitesmoke;
+    background-color: blueviolet;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    font-family: cursive;
+}
+
+div form button:hover{
+    color: blueviolet;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+div:hover{
+    box-shadow: 10px 10px 20px blueviolet;
+    cursor: auto;
+}
